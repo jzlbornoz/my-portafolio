@@ -7,6 +7,7 @@
     position: fixed;
     background-color: rgba(0, 0, 0, 0.655);
     backdrop-filter: blur(25px);
+    z-index: 30;
 }
 .Header ul {
     display: flex;

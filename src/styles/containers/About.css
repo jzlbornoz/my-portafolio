@@ -75,3 +75,12 @@
     color: #ff9c3e;
 }
 
+@media (max-width: 1000px) {
+    .About-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .About-container div {
+        width: 80vw;
+    }
+  }

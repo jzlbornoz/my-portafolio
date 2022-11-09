@@ -1,12 +1,9 @@
-.Projects {
-  max-height: 100vh;
-}
 .Projects h2 {
     margin-left: 5vw;
 }
 .Projects-container {
   margin-top:11vh;
-  height: 89vh;
+  min-height: 89vh;
 }
 .Projects-container ul {
   display: flex;
@@ -15,6 +12,7 @@
   list-style: none;
   margin: 0px;
   padding: 0px;
+  min-height: 80vh;
 }
 .Projects-container ul li {
   width: 26vw;
@@ -22,6 +20,7 @@
   overflow: hidden;
   position: relative;
 }
+
 .Project-info{
     position: absolute;
     top: 0;
@@ -43,6 +42,34 @@
     background-color: rgb(2,0,36);
     color: white;
 }
-.Projects-container ul li div:hover > .Project-info{
+.Projects-card:hover > .Project-info{
    opacity: 1;
+}
+@media (max-width: 1000px) {
+
+  .Projects-container {
+    margin-top:11vh;
+  }
+  .Projects-container ul {
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 180vh;
+  }
+  .Projects-container ul li {
+    width: 60vw;
+    min-height: 50vh;
+    overflow: hidden;
+    position: relative;
+  }
+  .Project-info{
+    color: white;
+    opacity: 1;
+    background: none;
+    position: static;
+  }
+  .Projects-card img{
+    width: 60vw;
+    height: 20vh;
+  }
 }
