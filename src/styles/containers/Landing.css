@@ -1,13 +1,13 @@
 .Landing{
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 .Landing-container{
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
 }
 .Landing-container img {
     width: 300px;

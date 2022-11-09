@@ -1,0 +1,48 @@
+.Projects {
+  max-height: 100vh;
+}
+.Projects h2 {
+    margin-left: 5vw;
+}
+.Projects-container {
+  margin-top:11vh;
+  height: 89vh;
+}
+.Projects-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.Projects-container ul li {
+  width: 26vw;
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+.Project-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 5px;
+}
+.Project-info button{
+    background-color: white;
+    color: rgb(2,0,36);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.Project-info button:hover{
+    background-color: rgb(2,0,36);
+    color: white;
+}
+.Projects-container ul li div:hover > .Project-info{
+   opacity: 1;
+}

@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.655);
+    backdrop-filter: blur(25px);
 }
 .Header ul {
     display: flex;
