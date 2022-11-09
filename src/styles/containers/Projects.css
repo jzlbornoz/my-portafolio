@@ -31,10 +31,15 @@
     opacity: 0;
     padding: 5px;
 }
+.Project-info a{
+  color: white;
+  text-decoration: none;
+}
+
 .Project-info button{
-    background-color: white;
+    background: none;
     color: rgb(2,0,36);
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
 }
@@ -44,6 +49,12 @@
 }
 .Projects-card:hover > .Project-info{
    opacity: 1;
+}
+.Projects-card img{
+  background-position: center;
+  width: 26vw;
+  height: 40vh;
+  filter: blur(0.7px);
 }
 @media (max-width: 1000px) {
 

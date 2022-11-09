@@ -1,5 +1,8 @@
 import React from 'react';
 import "../styles/containers/Projects.css";
+import image2 from '../assets/storeApp.jpg';
+import image1 from '../assets/cinex.jpg';
+import image0 from '../assets/data.jpg';
 
 const Projects = () => {
     return (
@@ -12,14 +15,16 @@ const Projects = () => {
                         <section className='Projects-card'>
                             <div>
                                 <img
-                                    src='https://dvyvvujm9h0uq.cloudfront.net/com/articles/1649236630-143717-matthewjpg.png'
+                                    src={image0}
                                     alt='fuve'
                                 />
                             </div>
                             <div className='Project-info'>
                                 <p>Data structures</p>
                                 <p>Project about data structures with JavaScript</p>
-                                <button>View repositorie</button>
+                                <button>
+                                <a href='https://github.com/jzlbornoz/Estructura-de-Datos-js'>View repositorie</a>
+                                </button>
                             </div>
                         </section>
 
@@ -28,15 +33,19 @@ const Projects = () => {
                         <section className='Projects-card'>
                             <div>
                                 <img
-                                    src='https://cdn-proxy.slickplan.com/wp-content/uploads/2022/06/ux-portfolio-example-1.jpg'
+                                    src={image1}
                                     alt='cinxe' />
                             </div>
                             <div className='Project-info'>
-                                <p>Cinex App</p>
-                                <p>Entertainment Progressive Web App with a modern UI,
-                                    powered by react | You can look and search a lot of movies, series and documents,
-                                    calling data from MovieDB(API).</p>
-                                <button>View repositorie</button>
+                                <a href='https://cinex0.web.app/'>
+                                    <p>Cinex App</p>
+                                    <p>Entertainment Progressive Web App with a modern UI,
+                                        powered by react | You can look and search a lot of movies, series and documents,
+                                        calling data from MovieDB(API).</p>
+                                </a>
+                                <button type='button'>
+                                    <a href='https://github.com/jzlbornoz/cinex-app'>View repositorie</a>
+                                </button>
                             </div>
                         </section>
                     </li>
@@ -44,15 +53,22 @@ const Projects = () => {
                         <section className='Projects-card'>
                             <div>
                                 <img
-                                    src='https://media.slidesgo.com/storage/10521395/conversions/18-uiux-designer-portfolio-thumb.jpg'
+                                    src={image2}
                                     alt='store'
                                 />
                             </div>
                             <div className='Project-info'>
-                                <p>Store Next App</p>
-                                <p>E-commerce Next App, bootstrapped by react
-                                    | You can look and manage the products with a dashboard, calling data from the API.</p>
-                                <button>View repositorie</button>
+                                <a href='https://store-next-app.vercel.app/'>
+                                    <p>Store Next App</p>
+                                    <p>
+                                        E-commerce Next App, bootstrapped by react
+                                        | You can look and manage the products with a dashboard,
+                                        calling data from the API.
+                                    </p>
+                                </a>
+                                <button type='button'>
+                                    <a href='https://github.com/jzlbornoz/store-nextApp'>View repositorie</a>
+                                </button>
                             </div>
                         </section>
                     </li>
