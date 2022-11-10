@@ -10,6 +10,7 @@ const About = () => {
                     <h3>Who am I?</h3>
                     <p>
                         I am Javier Albornoz, Web Developer and software engineering student.
+                        Currently working on YourStore App and learning  PostgreSQl and DataBases
                     </p>
                 </div>
                 <div className='About-skils' data-aos="fade-up">
@@ -28,11 +29,11 @@ const About = () => {
                             <i className="fa-brands fa-react fa-2xl" />
                         </li>
                         <li className='About-next'>
-                            <img  
-                            src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png' 
-                            alt='next'
-                            width={70}
-                            heigth={70}
+                            <img
+                                src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png'
+                                alt='next'
+                                width={70}
+                                heigth={70}
                             />
                         </li>
                         <li className='About-node'>

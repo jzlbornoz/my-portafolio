@@ -8,7 +8,7 @@ const Landing = () => {
            <div className='Landing-bar'></div>
                 <div>
                 <h1> I am Javier Albornoz</h1>
-                <h2>Developer</h2>
+                <h2>React Developer</h2>
                 </div>
                 
             </div>
