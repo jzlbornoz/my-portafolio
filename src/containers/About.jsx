@@ -4,15 +4,15 @@ import '../styles/containers/About.css';
 const About = () => {
     return (
         <section className='About'>
-            <h2>About</h2>
+            <h2 data-aos="fade-up" >About</h2>
             <section className='About-container'>
-                <div>
+                <div data-aos="fade-up">
                     <h3>Who am I?</h3>
                     <p>
-                        I am Javier Albornoz, Web Developer and software engineering student with experience in the web development.
+                        I am Javier Albornoz, Web Developer and software engineering student.
                     </p>
                 </div>
-                <div className='About-skils'>
+                <div className='About-skils' data-aos="fade-up">
                     <h3>Skils</h3>
                     <ul>
                         <li className='About-html'>

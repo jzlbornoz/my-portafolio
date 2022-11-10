@@ -4,7 +4,7 @@ import '../styles/containers/Landing.css';
 const Landing = () => {
     return (
         <section className='Landing'>
-            <div className='Landing-container'>
+            <div className='Landing-container' data-aos="fade-right">
            <div className='Landing-bar'></div>
                 <div>
                 <h1> I am Javier Albornoz</h1>

@@ -9,8 +9,8 @@ const Projects = () => {
         <section className='Projects'>
 
             <div className='Projects-container'>
-                <h2>Projects</h2>
-                <ul>
+                <h2 data-aos="fade-up" >Projects</h2>
+                <ul data-aos="fade-up">
                     <li>
                         <section className='Projects-card'>
                             <div>
